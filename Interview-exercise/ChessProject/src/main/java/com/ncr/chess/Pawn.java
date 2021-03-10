@@ -56,7 +56,7 @@ public class Pawn {
     	}
     }
 
-    @Override
+   /* @Override
     public String toString() {
         return getCurrentPositionAsString();
     }
@@ -64,5 +64,5 @@ public class Pawn {
     protected String getCurrentPositionAsString() {
         String eol = System.lineSeparator();
         return String.format("Current X: {1}{0}Current Y: {2}{0}Piece Color: {3}", eol, xCoordinate, yCoordinate, pieceColor);
-    }
+    }*/
 }
