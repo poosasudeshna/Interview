@@ -1,0 +1,44 @@
+package com.ncr.chess;
+
+public class ChessBoard {
+
+    public static int MAX_BOARD_WIDTH = 7;
+    public static int MAX_BOARD_HEIGHT = 7;
+
+    private Pawn[][] pieces;
+    
+    public static int x=0,y=0;
+    public static String color = "BLACK";
+
+    public ChessBoard() {
+        pieces = new Pawn[MAX_BOARD_WIDTH][MAX_BOARD_HEIGHT];
+    }
+
+    public void addPiece(Pawn pawn, int xCoordinate, int yCoordinate, PieceColor pieceColor) {
+        //throw new UnsupportedOperationException("Need to implement ChessBoard.add()");
+    	if(x==0 && y==0) {
+    		pawn.setXCoordinate(xCoordinate);
+    		x = pawn.getXCoordinate();
+    		pawn.setYCoordinate(yCoordinate);
+    		y = pawn.getYCoordinate();
+    		System.out.println("a"+x);
+    		System.out.println("b"+y);
+    	}else {
+    		x = -1;
+    		y = -1;
+    	}
+    	
+    }
+
+    public boolean isLegalBoardPosition(int xCoordinate, int yCoordinate) {
+    	
+    	if(xCoordinate <=7 && yCoordinate<=7 && xCoordinate>=0 && yCoordinate>=0) {
+    		return true;
+    	}else{
+    		return false;   		
+    	}
+    	
+    	//throw new UnsupportedOperationException("Need to implement ChessBoard.IsLegalBoardPosition()");
+        
+    }
+}

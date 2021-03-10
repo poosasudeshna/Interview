@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="ChessBoardTest (3)" project="ChessProject" tests="10" started="10" failures="0" errors="0" ignored="0">
+  <testsuite name="com.ncr.chess.ChessBoardTest" time="0.002">
+    <testcase name="testHas_MaxBoardHeight_of_7" classname="com.ncr.chess.ChessBoardTest" time="0.001"/>
+    <testcase name="testIsLegalBoardPosition_True_X_equals_0_Y_equals_0" classname="com.ncr.chess.ChessBoardTest" time="0.0"/>
+    <testcase name="testIsLegalBoardPosition_False_X_equals_0_Y_equals_9" classname="com.ncr.chess.ChessBoardTest" time="0.0"/>
+    <testcase name="testLimits_The_Number_Of_Pawns" classname="com.ncr.chess.ChessBoardTest" time="0.0"/>
+    <testcase name="testIsLegalBoardPosition_True_X_equals_5_Y_equals_5" classname="com.ncr.chess.ChessBoardTest" time="0.0"/>
+    <testcase name="testIsLegalBoardPosition_False_For_Negative_Y_Values" classname="com.ncr.chess.ChessBoardTest" time="0.0"/>
+    <testcase name="testIsLegalBoardPosition_False_X_equals_11_Y_equals_0" classname="com.ncr.chess.ChessBoardTest" time="0.0"/>
+    <testcase name="testIsLegalBoardPosition_False_X_equals_11_Y_equals_5" classname="com.ncr.chess.ChessBoardTest" time="0.0"/>
+    <testcase name="testHas_MaxBoardWidth_of_7" classname="com.ncr.chess.ChessBoardTest" time="0.0"/>
+    <testcase name="testAvoids_Duplicate_Positioning" classname="com.ncr.chess.ChessBoardTest" time="0.0"/>
+  </testsuite>
+</testrun>
